@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7nQJkwYuCD0PiKJ3nK3Y6nlZtGdgxIeG+RzdZnKyGOc274DBGTj+PgWqOrzeVR8vceJHbeFbpUyIXuVxWUeWdw==",
+  "dgSpecHash": "l2DcAthNXE7vII+SCXFZ/ITqjp9Wq8YoqvHBgSpR6PZ5Flnyh54ZDQtWVTxQ0PQdlbCTrFe9mC7j1d1YxSUqCA==",
   "success": true,
-  "projectFilePath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.EntityFramework\\Test.EntityFramework.csproj",
+  "projectFilePath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\Test.EntityFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jahir\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jahir\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

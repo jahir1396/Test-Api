@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dTyEkIxqQBhiSmGGy+WkxPEzYQUaPJG1bIgcr/E4wC1OBq+SzChKSyqx/8jpy9Lyu7wtKOEmlBbuA/zc2JUTlQ==",
+  "dgSpecHash": "Ba3eR2M6D/Pv5jJLgHZrxmHqBWOVRK3P188h/WoE/8rhThEjlS0boVayGBOAxSpXppj4C8jCMz5ZVH/L6uMaTA==",
   "success": true,
-  "projectFilePath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Web\\Test.Web.csproj",
+  "projectFilePath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Web\\Test.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jahir\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\jahir\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

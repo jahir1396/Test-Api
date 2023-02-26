@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-api-deploy
+  labels:
+    app: product-app
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: product-app
+      service: webapi
+  template:
+    metadata:
+      labels:
+        app: product-app
+        service: webapi
+    spec:
+      containers:
+        - name: test-api-container
+          image: jahir131296/test-proyectos:api-test-img
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+          env:
+            - name: ConnectionStrings__SistemaConexion
+              value: Server=34.171.174.179;Database=DB_SISTEMA_PROYECTO;User=sqlserver;Password=Jahir.Lopez
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: test-api-service
+  labels:
+    app: product-app
+    service: webapi
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      targetPort : 8080
+      protocol: TCP
+  selector:
+    service: webapi
+---
+apiVersion: v1
+kind: Pod
+metadata:
+    name: test-api-pod
+    labels:
+        app: product-app
+        service: webapi
+spec:
+    containers:
+        - name: test-api-container
+          image: jahir131296/test-proyectos:api-test-img
+          ports:
+            - containerPort: 8080
+          env:
+            - name: ConnectionStrings__SistemaConexion
+              value: Server=34.171.174.179;Database=DB_SISTEMA_PROYECTO;User=sqlserver;Password=Jahir.Lopez

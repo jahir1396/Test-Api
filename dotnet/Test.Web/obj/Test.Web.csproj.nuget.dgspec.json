@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Web\\Test.Web.csproj": {}
+    "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Web\\Test.Web.csproj": {}
   },
   "projects": {
-    "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Core\\Test.Core.csproj": {
+    "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Core\\Test.Core.csproj",
+        "projectUniqueName": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj",
         "projectName": "Test.Core",
-        "projectPath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Core\\Test.Core.csproj",
+        "projectPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj",
         "packagesPath": "C:\\Users\\jahir\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Core\\obj\\",
+        "outputPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.EntityFramework\\Test.EntityFramework.csproj": {
+    "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\Test.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.EntityFramework\\Test.EntityFramework.csproj",
+        "projectUniqueName": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\Test.EntityFramework.csproj",
         "projectName": "Test.EntityFramework",
-        "projectPath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.EntityFramework\\Test.EntityFramework.csproj",
+        "projectPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\Test.EntityFramework.csproj",
         "packagesPath": "C:\\Users\\jahir\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.EntityFramework\\obj\\",
+        "outputPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -97,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Core\\Test.Core.csproj": {
-                "projectPath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Core\\Test.Core.csproj"
+              "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj": {
+                "projectPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj"
               }
             }
           }
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Web\\Test.Web.csproj": {
+    "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Web\\Test.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Web\\Test.Web.csproj",
+        "projectUniqueName": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Web\\Test.Web.csproj",
         "projectName": "Test.Web",
-        "projectPath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Web\\Test.Web.csproj",
+        "projectPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Web\\Test.Web.csproj",
         "packagesPath": "C:\\Users\\jahir\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Web\\obj\\",
+        "outputPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -175,11 +175,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Core\\Test.Core.csproj": {
-                "projectPath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Core\\Test.Core.csproj"
+              "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj": {
+                "projectPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj"
               },
-              "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.EntityFramework\\Test.EntityFramework.csproj": {
-                "projectPath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.EntityFramework\\Test.EntityFramework.csproj"
+              "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\Test.EntityFramework.csproj": {
+                "projectPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\Test.EntityFramework.csproj"
               }
             }
           }

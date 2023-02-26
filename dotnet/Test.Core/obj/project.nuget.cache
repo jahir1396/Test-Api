@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6DZmsTOg5dPzZvJriCSLKbGWgQ0e64EGIM4tJTVW4v5yosGmMgPhjWWCgZ93JMIzrIqIuVy3041vfLU8OkOQuQ==",
+  "dgSpecHash": "fI10ZYDI1PjYdSZdh7L8E23M7fs/ilypf9q6ZOfiAO9KSsYrBWgGz9FIIYR7O6IQ+BuUvNRoNwjl1kHlLbMVig==",
   "success": true,
-  "projectFilePath": "C:\\GIT\\ProyectosTest\\Test\\Test\\Test.Core\\Test.Core.csproj",
+  "projectFilePath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

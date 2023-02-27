@@ -10,3 +10,15 @@ C:\GIT\ProyectosTest\Test\Test\Test.Core\obj\Debug\net6.0\Test.Core.dll
 C:\GIT\ProyectosTest\Test\Test\Test.Core\obj\Debug\net6.0\refint\Test.Core.dll
 C:\GIT\ProyectosTest\Test\Test\Test.Core\obj\Debug\net6.0\Test.Core.pdb
 C:\GIT\ProyectosTest\Test\Test\Test.Core\obj\Debug\net6.0\ref\Test.Core.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\bin\Debug\net6.0\Test.Core.deps.json
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\bin\Debug\net6.0\Test.Core.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\bin\Debug\net6.0\Test.Core.pdb
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\obj\Debug\net6.0\Test.Core.csproj.AssemblyReference.cache
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\obj\Debug\net6.0\Test.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\obj\Debug\net6.0\Test.Core.AssemblyInfoInputs.cache
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\obj\Debug\net6.0\Test.Core.AssemblyInfo.cs
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\obj\Debug\net6.0\Test.Core.csproj.CoreCompileInputs.cache
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\obj\Debug\net6.0\Test.Core.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\obj\Debug\net6.0\refint\Test.Core.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\obj\Debug\net6.0\Test.Core.pdb
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Core\obj\Debug\net6.0\ref\Test.Core.dll

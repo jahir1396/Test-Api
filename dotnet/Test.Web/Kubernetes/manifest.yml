@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: testapideploy
+  name: webapideploy
   labels:
-    app: testapideploy
+    app: product-app
 spec:
   replicas: 3
   selector:
@@ -29,9 +29,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: testapiservice
+  name: webapiservice
   labels:
-    app: testapiservice
+    app: product-app
     service: webapi
 spec:
   type: NodePort
@@ -45,9 +45,9 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-    name: testapipod
+    name: webapipod
     labels:
-        app: testapipod
+        app: product-app
         service: webapi
 spec:
     containers:
@@ -57,4 +57,4 @@ spec:
             - containerPort: 5000
           env:
             - name: ConnectionStrings__SistemaConexion
-              value: Server=Server=34.171.174.179;Database=DB_SISTEMA_PROYECTO;User=sqlserver;Password=Jahir.Lopez
+              value: Server=34.171.174.179;Database=DB_SISTEMA_PROYECTO;User=sqlserver;Password=Jahir.Lopez

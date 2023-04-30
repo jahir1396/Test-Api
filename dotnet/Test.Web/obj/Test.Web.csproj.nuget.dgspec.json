@@ -198,6 +198,34 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "GraphQL": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "GraphQL.MicrosoftDI": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "GraphQL.Server.Authorization.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore.SystemTextJson": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "GraphQL.Server.Ui.Altair": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "GraphQL.SystemTextJson": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.Azure.ActiveDirectory.GraphClient": {
               "target": "Package",
               "version": "[2.1.1, )"

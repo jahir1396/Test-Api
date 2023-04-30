@@ -11,6 +11,10 @@ namespace Test.EntityFramework.TestDbContext
 {
     public class TestDbContext : DbContext
     {
+        public TestDbContext()
+        {
+
+        }
         public TestDbContext(DbContextOptions<TestDbContext> options): base(options)
         {
 

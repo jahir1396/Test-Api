@@ -5,11 +5,13 @@ using GraphQL.Types;
 using Sistema.Proyecto;
 using System.Reactive.Disposables;
 using Test.Web.GraphQL.Types;
+using Test.Web.Services;
 
 namespace Test.Web.GraphQL.Querys
 {
     public class UsuarioQuery : ObjectGraphType<CatUsuario>
     {
+        private readonly IUsuarioService _usuarioService;
         private readonly IRepository<CatUsuario> _usuarioRepository;
         private readonly IRepository<CatRol> _rolRepository;
         private readonly IUnitOfWork _unitOfWork;
@@ -17,11 +19,13 @@ namespace Test.Web.GraphQL.Querys
         public UsuarioQuery(
             IRepository<CatUsuario> usuarioRepository,
             IRepository<CatRol> rolRepository,
+            IUsuarioService usuarioService,
             IUnitOfWork unitOfWork)
         {
             _usuarioRepository = usuarioRepository;
             _rolRepository = rolRepository;
             _unitOfWork = unitOfWork;
+            _usuarioService = usuarioService;
 
             FieldAsync<ListGraphType<UsuariosType>>(
                 "listarUsuarios",

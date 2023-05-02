@@ -7,5 +7,8 @@ namespace Test.Web.Services
         Task<CrearUsuarioOutput> CrearUsuario(CrearUsuarioInput input);
         Task<LoginOutput> Login(LoginInput input);
         Task<ObtenerUsuariosOutput> ObtenerUsuarios();
+
+
+        Task<int> OperacionMatematica(int valor1, int valor2);
     }
 }

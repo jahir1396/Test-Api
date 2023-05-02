@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CalculatorWSDL;
 using Microsoft.Azure.ActiveDirectory.GraphClient;
 using Microsoft.IdentityModel.Tokens;
 using Sistema.Proyecto;
@@ -19,11 +20,15 @@ namespace Test.Web.Services
         private readonly IConfiguration _config;
         private readonly IUnitOfWork _unitOfWork;
 
+        //Llamado a servicios SOAP
+        //private readonly CalculatorSoap _calculatorSoap;
+
         public UsuarioService(IHttpContextAccessor httpContextAccessor,
             TestDbContext context,
             IRepository<CatRol> catRolRepository,
             IRepository<CatUsuario> catUsuariosRepository,
             IMapper objectMapper,
+            //CalculatorSoap calculatorSoap,
             IUnitOfWork unitOfWork,
             IConfiguration config
             ) : base(httpContextAccessor, catUsuariosRepository)
@@ -33,6 +38,7 @@ namespace Test.Web.Services
             _config = config;
             _unitOfWork = unitOfWork;
             _catRolRepository = catRolRepository;
+            //_calculatorSoap = calculatorSoap;
         }
 
         public async Task<CrearUsuarioOutput> CrearUsuario(CrearUsuarioInput input)
@@ -131,6 +137,14 @@ namespace Test.Web.Services
                 claims: claims);
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public async Task<int> OperacionMatematica(int valor1, int valor2)
+        {
+            var calculator = new CalculatorSoapClient(CalculatorSoapClient.EndpointConfiguration.CalculatorSoap);
+            var result = await calculator.MultiplyAsync(valor1, valor2);
+
+            return result;
         }
 
         private void CrearPasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)

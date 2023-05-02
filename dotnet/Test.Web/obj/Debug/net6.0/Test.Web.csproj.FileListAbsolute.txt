@@ -231,3 +231,15 @@ C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.Reactive.x
 C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.Net.Http.Formatting.dll
 C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.Web.Http.dll
 C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\Connected Services\CalculatorWSDL\ConnectedService.json
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.Saml.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Xml.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.Private.ServiceModel.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.ServiceModel.Duplex.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.ServiceModel.Federation.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.ServiceModel.Http.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.ServiceModel.NetTcp.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.ServiceModel.dll
+C:\GIT\ProyectosTest\Test-Api\dotnet\Test.Web\bin\Debug\net6.0\System.ServiceModel.Security.dll

@@ -54,5 +54,22 @@ namespace Test.Web.GraphQL.Types
             Name = "UsuarioId";
             Field<NonNullGraphType<ListGraphType<IntGraphType>>>("IdUsuarios").Description = "Id de los usuarios cambiar roles";
         }
-    }    
+    }   
+    
+    public class CalculatorInput
+    {
+        public int Valor1 { get; set; }
+        public int Valor2 { get; set; }
+    }
+
+    public class CalculatorInputType : InputObjectGraphType
+    {
+        public CalculatorInputType()
+        {
+            Name = "CalculatorInput";
+            Field<IntGraphType>("Valor1");
+            Field<IntGraphType>("Valor2");
+        }
+    }
+    
 }

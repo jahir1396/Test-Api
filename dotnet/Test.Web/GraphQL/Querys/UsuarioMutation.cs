@@ -126,7 +126,25 @@ namespace Test.Web.GraphQL.Querys
                     _catRolRepository.Update(mRol);
 
                     return mUsuarios;
-                });            
+                });
+
+            FieldAsync<CalculatorOutputType>(
+                "calculator",
+                arguments: new QueryArguments(new QueryArgument<NonNullGraphType<CalculatorInputType>>
+                {
+                    Name = "Valores"
+                }),
+                resolve: async context =>
+                {
+                    var output = new CalculatorOutput();
+                    var input = context.GetArgument<CalculatorInput>("Valores");
+
+                    var resultado = await _usuarioService.OperacionMatematica(input.Valor1,input.Valor2);
+
+                    output.Resultado = resultado;
+
+                    return output;
+                });
         }
     }
 }

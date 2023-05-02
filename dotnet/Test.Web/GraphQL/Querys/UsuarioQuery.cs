@@ -1,6 +1,9 @@
-﻿using GraphQL;
+﻿using AutoMapper;
+using GraphQL;
+using GraphQL.Introspection;
 using GraphQL.Types;
 using Sistema.Proyecto;
+using System.Reactive.Disposables;
 using Test.Web.GraphQL.Types;
 
 namespace Test.Web.GraphQL.Querys
@@ -8,32 +11,48 @@ namespace Test.Web.GraphQL.Querys
     public class UsuarioQuery : ObjectGraphType<CatUsuario>
     {
         private readonly IRepository<CatUsuario> _usuarioRepository;
+        private readonly IRepository<CatRol> _rolRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
         public UsuarioQuery(
-            IRepository<CatUsuario> usuarioRepository)
+            IRepository<CatUsuario> usuarioRepository,
+            IRepository<CatRol> rolRepository,
+            IUnitOfWork unitOfWork)
         {
             _usuarioRepository = usuarioRepository;
+            _rolRepository = rolRepository;
+            _unitOfWork = unitOfWork;
 
             FieldAsync<ListGraphType<UsuariosType>>(
-                "usuarios",
+                "listarUsuarios",
                 arguments: new QueryArguments(new List<QueryArgument>
                 {
                     new QueryArgument<IdGraphType>
                     {
                         Name = "id"
+                    },
+                    new QueryArgument<StringGraphType>
+                    {
+                        Name = "nombre"
+                    },
+                    new QueryArgument<StringGraphType>
+                    {
+                        Name = "email"
                     }
                 }),
                 resolve: async context =>
                 {
                     var usuarioId = context.GetArgument<int?>("id");
+                    var usuarioNombre = context.GetArgument<string>("nombre");
+                    var usuarioEmail = context.GetArgument<string>("email");
 
-                    if (usuarioId.HasValue)
-                    {
-                        var res = await _usuarioRepository.GetAllListAsync(u => u.IdUsuario == usuarioId);
-                        return res;
-                    }
+                    var res = await _usuarioRepository.GetAllListAsync(s => (usuarioId.HasValue ? s.IdUsuario == usuarioId : true)
+                            && (!string.IsNullOrEmpty(usuarioNombre) ? s.Nombre.Contains(usuarioNombre): true)
+                            && (!string.IsNullOrEmpty(usuarioEmail) ? s.Email.Contains(usuarioEmail): true));
+
+                    
                     return await _usuarioRepository.GetAllListAsync();
-                });
+                });            
         }
 
     }

@@ -8,8 +8,8 @@ namespace Test.Web.GraphQL.Schemas
     {
         public UsuarioSchema(IServiceProvider serviceProvider) : base(serviceProvider)
         {
-            Query = serviceProvider.GetRequiredService<UsuarioQuery>();
-            Mutation = serviceProvider.GetRequiredService<CategoriaMutation>();
+            Query = serviceProvider.GetRequiredService<UsuarioQuery>();            
+            Mutation = serviceProvider.GetRequiredService<UsuarioMutation>();
         }
     }
 }

@@ -17,6 +17,12 @@ namespace Test.Web.GraphQL.Types
             
             Name = "Usuario";
             Field(x => x.IdUsuario);
+            Field(x => x.IdRol);
+            Field(x => x.TipoDocumento);
+            Field(x => x.NumDocumento);
+            Field(x => x.Direccion);
+            Field(x => x.Telefono);
+            Field(x => x.Password);
             Field(x => x.Nombre);
             Field(x => x.Email);
             Field(x => x.FolioUsuario);            

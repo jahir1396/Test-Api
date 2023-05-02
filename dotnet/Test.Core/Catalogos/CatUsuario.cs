@@ -60,6 +60,9 @@ namespace Sistema.Proyecto
 
         public bool EstaActivo { get; set; }
 
+        [NotMapped]
+        public string Password { get; set; }
+
         [ForeignKey("IdRol")]
         public virtual CatRol Rol { get; set; }
 

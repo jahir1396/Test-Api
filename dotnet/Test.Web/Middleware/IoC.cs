@@ -1,7 +1,9 @@
 ﻿using GraphQL.MicrosoftDI;
+using GraphQL.Server;
 using GraphQL.Types;
 using Sistema.Proyecto;
 using Test.Web.GraphQL.Schemas;
+using Test.Web.Services;
 
 namespace Test.Web.Middleware
 {
@@ -11,7 +13,11 @@ namespace Test.Web.Middleware
         {
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped<IUsuarioService,UsuarioService>();
+
+            //GraphQL                
             services.AddScoped<ISchema, UsuarioSchema>(services => new UsuarioSchema(new SelfActivatingServiceProvider(services)));
+
             //services.AddScoped<ISchema, CategoriaSchema>(services => new CategoriaSchema(new SelfActivatingServiceProvider(services)));
 
             return services;

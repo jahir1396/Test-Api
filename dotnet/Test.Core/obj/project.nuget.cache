@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fI10ZYDI1PjYdSZdh7L8E23M7fs/ilypf9q6ZOfiAO9KSsYrBWgGz9FIIYR7O6IQ+BuUvNRoNwjl1kHlLbMVig==",
+  "dgSpecHash": "Jb0zDA8YuCG83BRr8Wno/ARVjJEfo/w4/y/Zvg071ARdu6zYVaM+kca9MY6nN/N6/HLjN9YEgYFZdeIZRdo5jw==",
   "success": true,
-  "projectFilePath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj",
+  "projectFilePath": "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/Test.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

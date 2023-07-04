@@ -1,34 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\Test.EntityFramework.csproj": {}
+    "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/Test.EntityFramework.csproj": {}
   },
   "projects": {
-    "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj": {
+    "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/Test.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj",
+        "projectUniqueName": "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/Test.Core.csproj",
         "projectName": "Test.Core",
-        "projectPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj",
-        "packagesPath": "C:\\Users\\jahir\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\obj\\",
+        "projectPath": "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/Test.Core.csproj",
+        "packagesPath": "/Users/jahir1396/.nuget/packages/",
+        "outputPath": "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/jahir1396/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,43 +54,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\Test.EntityFramework.csproj": {
+    "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/Test.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\Test.EntityFramework.csproj",
+        "projectUniqueName": "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/Test.EntityFramework.csproj",
         "projectName": "Test.EntityFramework",
-        "projectPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\Test.EntityFramework.csproj",
-        "packagesPath": "C:\\Users\\jahir\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.EntityFramework\\obj\\",
+        "projectPath": "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/Test.EntityFramework.csproj",
+        "packagesPath": "/Users/jahir1396/.nuget/packages/",
+        "outputPath": "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/jahir1396/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj": {
-                "projectPath": "C:\\GIT\\ProyectosTest\\Test-Api\\dotnet\\Test.Core\\Test.Core.csproj"
+              "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/Test.Core.csproj": {
+                "projectPath": "/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/Test.Core.csproj"
               }
             }
           }
@@ -140,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     }

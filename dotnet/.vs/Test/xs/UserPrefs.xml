@@ -1,4 +1,33 @@
 ﻿<Properties StartupConfiguration="{67911D10-F3F9-4FE6-9CCE-7A4677A47994}|Default">
-  <MonoDevelop.Ide.ItemProperties.Test.Web PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test.Web/appsettings.json">
+    <Files>
+      <File FileName="Test.Web/Controllers/RolesController.cs" Line="45" Column="3" />
+      <File FileName="Test.Web/Controllers/UsuariosController.cs" Line="41" Column="50" />
+      <File FileName="Test.Web/Controllers/InputOutput/RolInputOutput.cs" Line="6" Column="28" />
+      <File FileName="Test.Web/Controllers/Dto/RolDto.cs" Line="2" Column="15" />
+      <File FileName="Test.Web/appsettings.json" Line="20" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Test" expanded="True">
+            <Node name="Test.Web">
+              <Node name="Controllers" expanded="True">
+                <Node name="Dto" expanded="True" />
+                <Node name="InputOutput" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Test.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

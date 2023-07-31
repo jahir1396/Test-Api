@@ -19,7 +19,7 @@ namespace Test.Web
             _httpContextAccessor = httpContextAccessor;
             _catUsuarioRepository = catUsuarioRepository;
 
-            if (_httpContextAccessor.HttpContext.Request.Path.Value.Contains("Usuarios/Login") || _httpContextAccessor.HttpContext.Request.Path.Value.Contains("Usuarios/CrearUsuario"))
+            if (_httpContextAccessor.HttpContext.Request.Path.Value.Contains("Usuarios/Login") || _httpContextAccessor.HttpContext.Request.Path.Value.Contains("Usuarios/CrearUsuario") || _httpContextAccessor.HttpContext.Request.Path.Value.Contains("Roles/ObtenerRoles"))
             {
                 InformacionUsuario = new InformacionUsuario
                 {

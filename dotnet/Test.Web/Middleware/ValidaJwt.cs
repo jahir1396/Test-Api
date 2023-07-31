@@ -28,7 +28,7 @@ namespace Test.Web.Middleware
             {
                 try
                 {
-                    if(context.Request.Path.Value.Contains("Usuarios/Login") || context.Request.Path.Value.Contains("Usuarios/CrearUsuario") || context.Request.Path.Value.Contains("api/Inicio"))
+                    if(context.Request.Path.Value.Contains("Usuarios/Login") || context.Request.Path.Value.Contains("Usuarios/CrearUsuario") || context.Request.Path.Value.Contains("api/Inicio") || context.Request.Path.Value.Contains("Roles/ObtenerRoles"))
                         await _next.Invoke(context);
                     else
                     {

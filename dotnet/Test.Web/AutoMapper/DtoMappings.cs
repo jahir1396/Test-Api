@@ -15,6 +15,8 @@ namespace Test.Web.AutoMapper
             // AutoMapFrom
             CreateMap<CatUsuario, UsuarioDto>()
                 .ForMember(d => d.Rol, options => options.MapFrom(s => s.Rol.Nombre));
+
+            CreateMap<CatRol, RolDto>();
             //CreateMap<CatCategoria, CategoriaDto>();
         }
     }

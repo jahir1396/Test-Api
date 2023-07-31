@@ -33,12 +33,14 @@ namespace Test.Web.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public async Task<List<RolDto>> ObtenerRoles()
+        public async Task<ObtenerRolesOutput> ObtenerRoles()
         {
             var mRoles = await _catRolRepository.GetAllListAsync();
 
-            return _objectMapper.Map<List<RolDto>>(mRoles);
-
+            return new ObtenerRolesOutput
+            {
+                Roles = _objectMapper.Map<List<RolDto>>(mRoles)
+            };
         }
 	}
 }

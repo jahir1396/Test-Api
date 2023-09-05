@@ -1,0 +1,12 @@
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/bin/Release/net6.0/Test.Core.deps.json
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/bin/Release/net6.0/Test.Core.dll
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/bin/Release/net6.0/Test.Core.pdb
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/obj/Release/net6.0/Test.Core.csproj.AssemblyReference.cache
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/obj/Release/net6.0/Test.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/obj/Release/net6.0/Test.Core.AssemblyInfoInputs.cache
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/obj/Release/net6.0/Test.Core.AssemblyInfo.cs
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/obj/Release/net6.0/Test.Core.csproj.CoreCompileInputs.cache
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/obj/Release/net6.0/Test.Core.dll
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/obj/Release/net6.0/refint/Test.Core.dll
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/obj/Release/net6.0/Test.Core.pdb
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.Core/obj/Release/net6.0/ref/Test.Core.dll

@@ -1,0 +1,17 @@
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/bin/Release/net6.0/Test.EntityFramework.deps.json
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/bin/Release/net6.0/Test.EntityFramework.runtimeconfig.json
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/bin/Release/net6.0/Test.EntityFramework.dll
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/bin/Release/net6.0/Test.EntityFramework.pdb
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/bin/Release/net6.0/Test.Core.dll
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/bin/Release/net6.0/Test.Core.pdb
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/Test.EntityFramework.csproj.AssemblyReference.cache
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/Test.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/Test.EntityFramework.AssemblyInfoInputs.cache
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/Test.EntityFramework.AssemblyInfo.cs
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/Test.EntityFramework.csproj.CoreCompileInputs.cache
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/Test.EntityFramework.csproj.CopyComplete
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/Test.EntityFramework.dll
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/refint/Test.EntityFramework.dll
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/Test.EntityFramework.pdb
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/Test.EntityFramework.genruntimeconfig.cache
+/Users/jahir1396/Projects/GIT/Test-Api/dotnet/Test.EntityFramework/obj/Release/net6.0/ref/Test.EntityFramework.dll
